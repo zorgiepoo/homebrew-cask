@@ -52,7 +52,7 @@ cask "gpgfrontend" do
   homepage "https://gpgfrontend.bktus.com/"
 
   depends_on formula: "gnupg"
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :ventura"
 
   app "GpgFrontend.app"
 
